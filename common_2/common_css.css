@@ -1,0 +1,41 @@
+*{margin:0px;padding: 0px}
+ul,li{list-style: none}
+img{display: block}
+a{text-decoration: none}
+h1,h2,h3,h4{font-size: 16px;color:black}
+br{height: 0px}
+
+.container{width:1200px;margin:0 auto;}
+.container_fulid{width:100%}
+
+.left{float:left}
+.right{float:right}
+.clear::after{content: "";display: block;clear: both}
+
+#head {height:150px;background: #195ab4}
+#head .logo{margin-top: 27px;width: 347px;height: 87px}
+#head .logo a{width:100%;height:100%;cursor: pointer;}
+#head .head_message{margin-top: 31px;color: white;font-size: 14px;line-height: 14px}
+#head .head_message a{width:100%;height: 100%;cursor: pointer;color: white}
+#head .head_boot .search_block{margin-bottom: 25px;height: 27px;width: 204px;background:#4c7ec4;border: 0px}
+#head .head_boot .search_button{width: 58px;height: 27px;background: url(../image_2/head_search_button.png)}
+
+#daohang{height: 40px;background: #0a3f87;overflow: hidden;border-top:solid #23c8eb 2px}
+#daohang .container{overflow: hidden}
+#daohang .daohang_select{}
+#daohang .daohang_select li{float: left;width: 124px;line-height: 40px;text-align: center;}
+#daohang .daohang_select li:hover{background: #23c8eb}
+#daohang .daohang_select li a{width: 100%;height: 100%;cursor: pointer;color: white}
+#daohang .daohang_member{float: right;font-size: 12px;line-height: 40px;margin-right: 14px;width: 163px;}
+#daohang .daohang_member li{float: left;color:white;cursor: pointer}
+#daohang .daohang_member li:nth-of-type(1){width: 8px;height: 8px;margin: 16px auto;margin-right: 7.4px;background: url(../image_2/first_point.png)}
+#daohang .daohang_member li:nth-of-type(2){margin-right: 14.8px}
+#daohang .daohang_member li:nth-of-type(3){width: 8px;height: 8px;margin: 16px auto;margin-right: 7.4px;background: url(../image_2/second_point.png)}
+#daohang .daohang_member li:nth-of-type(4){margin-right: 14.8px}
+#daohang .daohang_member li:nth-of-type(5){width: 8px;height: 8px;margin: 16px auto;margin-right: 7.4px;background: url(../image_2/third_point.png)}
+#daohang .daohang_member li a{width: 100%;height: 100%;color:white}
+
+
+
+
+
