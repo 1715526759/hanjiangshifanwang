@@ -23,10 +23,17 @@
         #news .news_head .news_right_head{margin-top: 20px;width: 66px;height: 28px; background: #cc0000;font-size: 16px;line-height: 28px;color: white;text-align: center;}
 
         #news .news_content{}
-        #news>.news_content>li{float: left;}
+        #news .news_first_list{float: left}
+        #news .news_second_list{float: left}
+        #news .news_third_list{float: left}
+
         #news .news_content .news_content_bigImg{width: 380px;height: 254px;background: url("./image_2/news_content_bigImg.jpg") no-repeat;background-size: 100% 100%}
-        #news .news_content .news_content_underText{width: 363px;font-size: 14px;line-height: 14px;margin: 0 8px; margin-top: 12px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+        #news .news_content .news_content_underText{clear: both;width: 363px;font-size: 14px;line-height: 14px;margin: 0 8px; margin-top: 12px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
         #news .news_content .news_content_underText a{color: black}
+        #news .news_second_ul{margin-left: 30px;width: 380px;}
+        #news .news_second_ul .news_second_img_1{float: left;width: 120px;height: 80px;background: url("./image_2/news_content_bigImg.jpg") no-repeat;background-size: 100% 100%;}
+        #news .news_second_ul .news_second_title_1{float: left;margin-left: 9px;font-size: 13px;line-height: 22px}
+    /*    行高 22px*/
     </style>
 </head>
 <body>
@@ -87,19 +94,34 @@
                        </ul>
                    </div>
 
-                   <ul class="news_content">
-                       <li>
+                   <ul class="news_content clear">
+                       <li class="news_first_list">
                            <div class="news_content_bigImg"></div>
                            <div class="news_content_underText"><a href="#">省委任命杨鲜兰任汉江师范学院党委书记付永昌任为汉江师范学院院长</a></div>
                        </li>
-                       <li>
+                       <li class="news_second_list">
                            <ul class="news_second_ul">
-                               <li></li>
-                               <li></li>
-                               <li></li>
+                               <li>
+                                   <div class="news_second_img_1"></div>
+                                   <div class="news_second_title_1">省委任命杨鲜兰任汉江师范学院党委书记 付永昌任汉江师范学院院长</div>
+                                   <div class="news_second_content_1"></div>
+                               </li>
+                               <li>
+                                   <div class="news_second_img_2"></div>
+                                   <div class="news_second_title_2"></div>
+                                   <div class="news_second_content_2"></div>
+                               </li>
+                               <li>
+                                   <p></p>
+                                   <i></i>
+                                   <p></p>
+                                   <i></i>
+                                   <p></p>
+                                   <i></i>
+                               </li>
                            </ul>
                        </li>
-                       <li>
+                       <li class="news_third_list">
                            <ul class="news_third_ul">
                                <li></li>
                                <li></li>
