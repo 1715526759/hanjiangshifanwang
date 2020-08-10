@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="0b6604d6-edfc-4c1e-8adc-53c5a6ffe103" name="服务器" url="http://120.78.80.190">
-        <fileTransfer host="120.78.80.190" port="22" rootFolder="/www/wwwroot/120.78.80.190" accessType="SFTP">
+      <webServer id="0b6604d6-edfc-4c1e-8adc-53c5a6ffe103" name="服务器" url="http://index.liyanshuai.top">
+        <fileTransfer host="index.liyanshuai.top" port="22" rootFolder="/www/wwwroot/index.liyanshuai.top" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

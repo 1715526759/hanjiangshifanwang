@@ -21,6 +21,12 @@
         #news .news_head ul li{float: left}
         #news .news_head .news_right_p{margin-top: 27px;margin-right: 6px;font-size: 12px;line-height: 12px;color: #333333}
         #news .news_head .news_right_head{margin-top: 20px;width: 66px;height: 28px; background: #cc0000;font-size: 16px;line-height: 28px;color: white;text-align: center;}
+
+        #news .news_content{}
+        #news>.news_content>li{float: left;}
+        #news .news_content .news_content_bigImg{width: 380px;height: 254px;background: url("./image_2/news_content_bigImg.jpg") no-repeat;background-size: 100% 100%}
+        #news .news_content .news_content_underText{width: 363px;font-size: 14px;line-height: 14px;margin: 0 8px; margin-top: 12px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+        #news .news_content .news_content_underText a{color: black}
     </style>
 </head>
 <body>
@@ -71,15 +77,36 @@
          </div>
          <div id="news" class="container_fulid">
              <div class="container">
-                   <div class="news_head">
+                   <div class="news_head clear">
                        <div class="news_left_head">汉师新闻</div>
                        <div class="news_left_p">News</div>
 
                        <ul>
                            <li class="news_right_p">更多新闻请访问</li>
-                           <li class="news_right_head">新闻网</li>
+                           <li class="news_right_head"><a>新闻网</a></li>
                        </ul>
                    </div>
+
+                   <ul class="news_content">
+                       <li>
+                           <div class="news_content_bigImg"></div>
+                           <div class="news_content_underText"><a href="#">省委任命杨鲜兰任汉江师范学院党委书记付永昌任为汉江师范学院院长</a></div>
+                       </li>
+                       <li>
+                           <ul class="news_second_ul">
+                               <li></li>
+                               <li></li>
+                               <li></li>
+                           </ul>
+                       </li>
+                       <li>
+                           <ul class="news_third_ul">
+                               <li></li>
+                               <li></li>
+                               <li></li>
+                           </ul>
+                       </li>
+                   </ul>
              </div>
          </div>
 </body>
