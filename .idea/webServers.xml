@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="27d7c1dc-a8e4-4f5e-a078-9d8eebe8091c" name="haha" url="http://index.liyanshuai.top">
+        <fileTransfer host="index.liyanshuai.top" port="22" rootFolder="/www/wwwroot/index.liyanshuai.top" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
